@@ -1,6 +1,6 @@
 {
   "name": "tagsarea",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A textarea-resembling interface to write posts in form of separated tags",
   "author": "optimista",
   "license": "MIT",
