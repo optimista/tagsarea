@@ -1,6 +1,6 @@
 # tagsarea
 
-> A textarea-resembling interface to write and post separated tags
+> A textarea-resembling interface to write posts in form of separated tags
 
 [![NPM](https://img.shields.io/npm/v/tagsarea.svg)](https://www.npmjs.com/package/tagsarea) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -10,18 +10,22 @@
 npm install --save tagsarea
 ```
 
+or
+
+```bash
+yarn install tagsarea
+```
+
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'tagsarea'
+import TagsArea from 'tagsarea'
 
-class Example extends Component {
+export default class App extends Component {
   render () {
-    return (
-      <MyComponent />
-    )
+    return <TagsArea onSubmit={(tags) => console.log(tags)} />
   }
 }
 ```
