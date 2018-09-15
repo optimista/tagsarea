@@ -5,8 +5,9 @@ import styles from './styles.css'
 
 export default class TagsArea extends Component {
   static propTypes = {
-    classes: PropTypes.object,
-    onSubmit: PropTypes.func.isRequired
+    classes: PropTypes.object,    
+    onSubmit: PropTypes.func.isRequired,
+    placeholder: PropTypes.string
   }
 
   constructor(props) {

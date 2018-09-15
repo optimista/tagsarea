@@ -32,6 +32,12 @@ export default class App extends Component {
 }
 ```
 
+## Customization
+
+Element supports customization through the use of `react-jss` styled components.
+Available classes: `caret`, `tagsarea`, `tag`.
+(Example TBA)
+
 ## License
 
 MIT © [optimista](https://github.com/optimista)
