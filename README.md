@@ -34,8 +34,10 @@ export default class App extends Component {
 
 ## Customization
 
-Element supports customization through the use of `react-jss` styled components.
+Component supports customization through the use of `react-jss` styled components.
+
 Available classes: `caret`, `tagsarea`, `tag`.
+
 (Example TBA)
 
 ## License
