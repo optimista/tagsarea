@@ -2,6 +2,8 @@
 
 > A textarea-resembling interface to write posts in form of separated tags
 
+![Alt Text](tagsarea.gif)
+
 [![NPM](https://img.shields.io/npm/v/tagsarea.svg)](https://www.npmjs.com/package/tagsarea) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install

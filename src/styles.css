@@ -1,1 +1,32 @@
-/* add css styles here (optional) */
+.tagsarea {
+  border: 1px solid #f0f0e1;
+  cursor: text;
+  display: inline-block;
+  font-family: monospace;
+  padding: 0.3em;
+  width: 300px;
+}
+
+.caret, .tag {
+  margin: 0.2em;
+  font-size: 1em;
+  display: inline-block;
+  line-height: 1em;
+  vertical-align: text-bottom;
+}
+
+.tag {
+  background-color: #f0f0e1;
+  padding: 0.4em;
+}
+
+.caret {
+  outline: none;
+  padding: 0.4em;
+}
+
+.placeholder:empty:before {
+  color: #bbb;
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+}
